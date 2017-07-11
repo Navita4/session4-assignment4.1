@@ -1,0 +1,26 @@
+.messageblock{
+    position: relative;
+    font-family: sans-serif;
+    background: #FFFFFF;
+    height:auto;
+    width: 30%;
+    padding: 15px;
+    border-radius: 7px;
+    left: 20px;
+}
+.messageblock:after{
+    content:"" ;
+    height: 0px;
+    width: 0px;
+    border-top: 5px solid transparent;
+     border-bottom: 5px solid transparent;
+     border-left: 8px solid transparent;
+     border-right: 10px solid #FFF;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+}
+.messageblock:hover{
+    color: black;
+    background-color: red;
+}
